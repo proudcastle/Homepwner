@@ -17,9 +17,9 @@
     // Call the superclass´s designated initializer
     self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
-        for (int i = 0; i < 5; i++) {
+        /*for (int i = 0; i < 5; i++) {
             [[BNRItemStore sharedStore] createItem];
-        }
+        }*/
     }
     return self;
 }
@@ -31,7 +31,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[[BNRItemStore sharedStore] allItems] count];
+    NSInteger i = [[[BNRItemStore sharedStore] allItems] count];
+    return i+1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -41,6 +42,12 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                                        reuseIdentifier:@"UITableViewCell"];
+    }
+    
+    if (indexPath.row == [[[BNRItemStore sharedStore] allItems] count]) {
+        [[cell textLabel] setText:@"No more items"];
+        
+        return cell;
     }
     
     // Set the text on the cell with the description of the item
