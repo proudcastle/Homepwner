@@ -48,6 +48,7 @@
     [[self alloc] initWithItemName:randomName
                     valueInDollars:randomValue
                       serialNumber:randomSerialNumber];
+    NSLog(@"%@", [newItem description]);
     return newItem;
 }
 

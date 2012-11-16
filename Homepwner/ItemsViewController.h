@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface ItemsViewController : UITableViewController
+{
+    NSArray *sections;
+    NSMutableArray *expenisveItems;
+    NSMutableArray *cheapItems;
+}
 
 @end
