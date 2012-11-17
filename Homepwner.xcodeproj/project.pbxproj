@@ -18,6 +18,8 @@
 		289436371654120D005D34CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289436361654120D005D34CC /* Default-568h@2x.png */; };
 		2894363F1654132C005D34CC /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2894363E1654132C005D34CC /* ItemsViewController.m */; };
 		28943644165415E9005D34CC /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 28943643165415E9005D34CC /* BNRItemStore.m */; };
+		28962DD71657D1DA00DB381B /* tableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 28962DD51657D1DA00DB381B /* tableBG.png */; };
+		28962DD81657D1DA00DB381B /* tableBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28962DD61657D1DA00DB381B /* tableBG@2x.png */; };
 		D9D19F8E1655131A009E9E0A /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 289436411654153F005D34CC /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		289436411654153F005D34CC /* BNRItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		28943642165415E9005D34CC /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		28943643165415E9005D34CC /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		28962DD51657D1DA00DB381B /* tableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableBG.png; sourceTree = "<group>"; };
+		28962DD61657D1DA00DB381B /* tableBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableBG@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		289436261654120D005D34CC /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				28962DD51657D1DA00DB381B /* tableBG.png */,
+				28962DD61657D1DA00DB381B /* tableBG@2x.png */,
 				289436401654153F005D34CC /* BNRItem.h */,
 				289436411654153F005D34CC /* BNRItem.m */,
 				28943642165415E9005D34CC /* BNRItemStore.h */,
@@ -170,6 +176,8 @@
 				289436331654120D005D34CC /* Default.png in Resources */,
 				289436351654120D005D34CC /* Default@2x.png in Resources */,
 				289436371654120D005D34CC /* Default-568h@2x.png in Resources */,
+				28962DD71657D1DA00DB381B /* tableBG.png in Resources */,
+				28962DD81657D1DA00DB381B /* tableBG@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
